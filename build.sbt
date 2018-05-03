@@ -1,5 +1,5 @@
 name := "SCROLLAnnotations"
-scalaVersion := "2.12.4"
+scalaVersion := "2.12.6"
 version := "0.0.1"
 organization := "com.github.max-leuthaeuser"
 
@@ -21,9 +21,9 @@ scalacOptions := Seq(
   "-Ywarn-unused-import")
 
 libraryDependencies ++= Seq(
-  "com.github.max-leuthaeuser" %% "scroll" % "1.4",
+  "com.github.max-leuthaeuser" %% "scroll" % "1.5",
   "org.scala-lang" % "scala-reflect" % scalaVersion.value,
-  "org.scalatest" %% "scalatest" % "3.0.1" % "test"
+  "org.scalatest" %% "scalatest" % "3.0.5" % "test"
 )
 
 addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.1" cross CrossVersion.full)
